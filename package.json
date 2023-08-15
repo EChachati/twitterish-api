@@ -4,9 +4,8 @@
   "description": "API REST with Node, Mongo, Express, JWT for a Social Network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "nodemon index.js"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EChachati/twitterish-api.git"
