@@ -25,6 +25,14 @@ app.get("/test", (request, response) => {
   });
 });
 
+const userRoutes = require("./routes/user");
+const publicationRoutes = require("./routes/publication");
+const followRoutes = require("./routes/follow");
+
+app.use("/api/user", userRoutes);
+app.use("/api/publication", publicationRoutes);
+app.use("/api/follow", followRoutes);
+
 // Server to listen HTTP Petitions
 app.listen(port, () => {
   console.log("Running server on port ", port);
